@@ -1,0 +1,93 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.outer{
+    height: 100vh;
+    width: 100vw;
+    background-color: #a8f5ff;
+}
+.inner{
+    height: 400px;
+    width: 400px;
+    border-radius: 8px;
+    margin: 0% auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding: 20px 40px;
+    background-color: white;
+    z-index: 2;
+}
+h1{
+    font-size: 2.5rem;
+    color: #212121;
+    margin-bottom: 2px;
+}
+.head p{
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 13px;
+
+}
+
+.mainbody p label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 4px;
+    
+
+}
+.mainbody p input{
+    width: 100%;
+    padding: 10px; 
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1 rem;
+    margin-bottom: 4px;
+}
+button{
+    height: 40px;
+    width: 100%;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-top:13px ;
+    color: white;
+    background-color: #3498db;
+    cursor: pointer;
+}
+.footer{
+    font-size: small;
+    text-align: center;
+    margin-top: 8px;
+    color: #555;
+}
+.c{
+    height: 200px;
+    width: 200px;
+    border-radius: 100px;
+    color: black;
+    background: linear-gradient(to right ,#ffffffaa,#ffffffff);
+    position: absolute;
+}
+.one {
+    top: 100px;
+    left: 40px;
+    
+}
+.two{
+    bottom: 200px;
+    right: 50px;
+}
+.footer2{
+    position: absolute;
+    bottom: 20px;
+    left: 45%;
+}
